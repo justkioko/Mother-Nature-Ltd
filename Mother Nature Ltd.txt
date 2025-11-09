@@ -7,6 +7,11 @@
   <title>Mother Nature Ltd</title>
   <link rel="stylesheet" href="styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 
 <body>
@@ -14,8 +19,9 @@
     <nav class="navbar">
       <div class="logo">Mother Nature Ltd</div>
       <ul class="nav-links">
-        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="Destinations page.html">Destinations</a></li>
         <li><a href="#activities">Activities</a></li>
+        <li><a href="#why-us">Why Choose Us</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -23,7 +29,7 @@
     <div class="hero-content">
       <h1>Explore the World's Natural Wonders</h1>
       <p>Adventure starts here. Discover countries, beaches, hikes, safaris & more.</p>
-      <a href="#destinations" class="btn">Get Started</a>
+      <a href="Destinations page.html" class="btn">Get Started</a>
     </div>
   </header>
 
@@ -31,17 +37,17 @@
     <h2>Popular Destinations</h2>
     <div class="grid">
       <div class="card">
-        <img src="images/kenya.jpg" alt="Kenya" />
+        <img src="kenya.jpg" alt="Kenya" />
         <h3>Kenya</h3>
         <p>Experience epic safaris, savannahs, and stunning wildlife.</p>
       </div>
       <div class="card">
-        <img src="images/thailand.jpg" alt="Thailand" />
+        <img src="thailand.jpg" alt="Thailand" />
         <h3>Thailand</h3>
         <p>Explore exotic beaches and rich culture.</p>
       </div>
       <div class="card">
-        <img src="images/peru.jpg" alt="Peru" />
+        <img src="peru.jpg" alt="Peru" />
         <h3>Peru</h3>
         <p>Hike the Andes and uncover ancient mysteries.</p>
       </div>
@@ -52,21 +58,35 @@
     <h2>Top Activities</h2>
     <div class="grid">
       <div class="card">
-        <img src="images/hiking.jpg" alt="Hiking" />
+        <img src="hiking.jpg" alt="Hiking" />
         <h3>Hiking</h3>
         <p>Find the world’s most scenic trails and trekking adventures.</p>
       </div>
       <div class="card">
-        <img src="images/beach.jpg" alt="Beaches" />
+        <img src="beach.jpg" alt="Beaches" />
         <h3>Beaches</h3>
         <p>Relax on crystal clear waters and golden sands.</p>
       </div>
       <div class="card">
-        <img src="images/safari.jpg" alt="Safaris" />
+        <img src="safari.jpg" alt="Safaris" />
         <h3>Safaris</h3>
         <p>Witness nature’s greatest show in Africa’s wild parks.</p>
       </div>
     </div>
+  </section>
+
+  <section id="why-us" class="section">
+    <h2>Why Choose Us?</h2>
+    <p>
+      We believe in sustainable, immersive, and meaningful travel. With expert local guides, small group sizes,
+      and eco-conscious practices, we ensure every trip leaves a positive impact.
+    </p>
+    <ul>
+      <li>✓ Eco-Friendly Tours</li>
+      <li>✓ Expert Local Guides</li>
+      <li>✓ 24/7 Travel Support</li>
+      <li>✓ Tailored Itineraries</li>
+    </ul>
   </section>
 
   <section id="about" class="section">
